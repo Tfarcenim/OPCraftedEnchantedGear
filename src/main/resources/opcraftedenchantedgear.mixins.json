@@ -1,12 +1,12 @@
 {
   "required": true,
-  "package": "com.example.examplemod.mixin",
+  "package": "tfar.opcraftedenchantedgear.mixin",
   "compatibilityLevel": "JAVA_8",
-  "refmap": "examplemod.refmap.json",
+  "refmap": "opcraftedenchantedgear.refmap.json",
   "mixins": [
   ],
   "client":[
-    "ExampleMixin"
+    "WorkBenchContainerMixin"
   ],
   "injectors": {
     "defaultRequire": 1
